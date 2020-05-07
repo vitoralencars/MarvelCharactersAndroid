@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Marvel Characters</string>
+
+    <!--CHARACTERS LIST FROM SERVICE-->
+    <string name="characters_service_search_hint"><b>Search character</b></string>
+    <string name="characters_service_not_found">No characters found with this name =(</string>
+
+    <!--CHARACTER DETAILS-->
+    <string name="character_details_participations_number">Participations:</string>
+    <string name="character_details_participations_comics">Comics: %d</string>
+    <string name="character_details_participations_series">Series: %d</string>
+    <string name="character_details_participations_stories">Stories: %d</string>
+    <string name="character_details_participations_events">Events: %d</string>
+
+    <!--FAVORITES LIST-->
+    <string name="favorites_list_details_button">DETAILS</string>
+    <string name="favorites_list_delete_button">REMOVE</string>
+    <string name="favorites_list_toolbar_title">Favorites</string>
+    <string name="favorites_list_empty">You have not added any favorite characters yet.</string>
+
+    <!--SERVICE ERROR-->
+    <string name="service_error_general">Something went wrong. Please try again.</string>
+    <string name="service_error_not_connected">It looks like you have no internet connection.</string>
+    <string name="service_error_button_try_again">Try Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
