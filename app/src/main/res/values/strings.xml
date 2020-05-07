@@ -23,6 +23,20 @@
     <string name="service_error_not_connected">It looks like you have no internet connection.</string>
     <string name="service_error_button_try_again">Try Again</string>
 
+    <!--IMAGES CONTENT DESCRIPTION-->
+    <string name="content_description_character_picture">%s\'s picture</string>
+    <string name="content_description_more_infos_favorite">More informations about %s</string>
+    <string name="content_description_not_connected_icon">Not connected icon</string>
+    <string name="content_description_error_icon">Error icon</string>
+    <string name="content_description_not_found_icon">No characters found icon</string>
+    <string name="content_description_no_favorites_saved_icon">No favorites saved icon</string>
+    <string name="content_description_favorites_icon">Favorites icon</string>
+    <string name="content_description_close_details_icon">Close details</string>
+    <string name="content_description_search_icon">Search icon</string>
+    <string name="content_description_close_search_icon">Close search icon</string>
+    <string name="content_description_favorite_checkbox">Favorite checkbox</string>
+    <string name="content_description_marvel_logo">Marvel logo</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

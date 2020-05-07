@@ -30,6 +30,7 @@
                 android:layout_width="75dp"
                 android:layout_height="110dp"
                 android:scaleType="fitXY"
+                android:contentDescription="@{@string/content_description_character_picture(character.name)}"
                 app:characterPicture="@{character.thumbnail.path + `.` + character.thumbnail.extension}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
@@ -60,6 +61,7 @@
                 android:text="@{character.description}"
                 android:textColor="@color/white"
                 android:textSize="12sp"
+                android:ellipsize="end"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView5"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -77,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:contentDescription="@{@string/content_description_more_infos_favorite(character.name)}"
                 app:srcCompat="@drawable/ic_arrow_up"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/barrier" />

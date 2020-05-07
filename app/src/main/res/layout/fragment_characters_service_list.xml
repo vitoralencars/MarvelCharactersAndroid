@@ -38,6 +38,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="6dp"
+                    android:contentDescription="@string/content_description_marvel_logo"
                     app:srcCompat="@drawable/ic_marvel_logo" />
 
             </androidx.appcompat.widget.Toolbar>
@@ -88,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:visibility="@{searchEditTextFocused ? View.INVISIBLE : View.VISIBLE}"
+                android:contentDescription="@string/content_description_search_icon"
                 app:layout_constraintBottom_toBottomOf="@+id/view"
                 app:layout_constraintEnd_toEndOf="@+id/view"
                 app:layout_constraintTop_toTopOf="@+id/view"
@@ -99,6 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:visibility="@{searchEditTextFocused ? View.VISIBLE : View.INVISIBLE}"
+                android:contentDescription="@string/content_description_close_search_icon"
                 app:layout_constraintBottom_toBottomOf="@+id/view"
                 app:layout_constraintStart_toStartOf="@+id/view"
                 app:layout_constraintTop_toTopOf="@+id/view"
@@ -121,6 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:contentDescription="@string/content_description_not_found_icon"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/rv_characters"
